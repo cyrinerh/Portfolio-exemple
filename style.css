@@ -1,0 +1,299 @@
+html {
+	background-color: #888;
+}
+.left{
+	text-align: center;
+	display: inline-block;
+}
+.right{
+	text-align: right;
+	display: inline-block;
+	width: 	75%; }
+	h1{
+		padding-left: 100px;
+		color: white;
+	}
+
+	header
+	{
+		background-color: #722972;
+	}
+
+	nav a {
+		padding-right: 	30px
+
+	}
+	section{
+		width: 80%;
+		margin :auto;
+		padding: 0;
+		background-color: white;
+	}
+	.description{
+		margin-top: 70px;
+		border:3px solid grey;
+	}
+	.paragraphe p {
+		text-align: right;
+		font-size: 19px;
+		color: white;
+	}
+	.about {
+		overflow: auto;
+		background-color: #aaa;
+		
+		height: 365px;
+	}
+	.photo {
+		border-radius: 50%;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.abt {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 5px solid white;
+		margin: 1em 0;
+		padding: 0;
+		margin-left: 300px;
+		margin-right: 0px;
+	}
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 5px solid #888;
+		margin: 1em 0;
+		padding: 0;
+		margin-left: 300px;
+		margin-right: 300px;
+
+	}
+	.second{
+		color: white;
+		font-size: 26px;
+	}
+	.projects {
+		margin-left: 18%;
+		margin-top: 80px;
+
+	}
+	.photo img{
+		border-radius: 50%;
+		padding-right: 25px;
+		width: 256px;
+		height: 271px;
+	}
+	.portfolio {
+		background-color: : #eee;
+	}
+	.portfolio h1 {
+		color: #888;
+		text-align: center;
+		font-size: 25px;
+		padding-left: 15px;
+		margin-top: 60px;
+	}
+	.contact h1 {
+		color: #888;
+		text-align: center;
+		font-size: 25px;
+		padding-left: 15px;
+		margin-top: 60px;
+	}
+
+	#Nav a{
+		color: white;
+		text-decoration: underline;
+	}
+
+	#Nav a:hover {
+		color: blue;
+		text-decoration: none;
+	}
+
+	footer {
+		margin: 0 auto;
+		padding: 0px 0px 10px 0px;
+		background-color: #722972;
+	}
+
+	footer p {
+		text-align: center;
+		font-size: 12px;
+		color: white;
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.firstfooter {
+		background-color: #aaaaaa;
+		height: 280px;
+	}
+
+	.left-side-footer h1 {
+		padding-left: 175px;
+	}
+	.right-side-footer h1 {
+		padding-left: 120px;
+		padding-bottom: 24px;
+	}
+	.half-footer {
+		display: inline-block;
+		width: 49%;
+		margin-top: 50px;
+	}
+	.right-side-footer h3{
+		padding-right: 70px;
+	}
+	.left-side-footer a {
+		text-decoration : underline;
+		color: #722972;
+	}
+	h3 {
+		text-align: center;
+		color :white;
+	}
+	.fa {
+		padding: 20px;
+		font-size: 30px;
+		width: 50px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.fa:hover {
+		opacity: 0.7;
+
+	}
+
+	.fa-facebook {
+		background-color: transparent;
+		color: white;
+		border-radius: 50%;
+		padding: 20px;
+		font-size: 30px;
+		width: 18px;
+		text-align: center;
+		text-decoration: none;
+		border: 3px solid white;
+	}
+	.fa-twitter {
+		background-color: transparent;
+		color: white;
+		padding: 20px;
+		font-size: 30px;
+		width: 18px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+		border: 3px solid white;
+		
+
+	}
+	.sm{
+		margin-left: 157px;
+	}
+	.fa-linkedin {
+		background-color: transparent;
+		color: white;
+		padding: 20px;
+		font-size: 30px;
+		width: 18px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+		border: 3px solid white;
+		
+	}
+
+	.fa-github {
+		background-color: transparent;
+		color: white;
+		padding: 20px;
+		font-size: 30px;
+		width: 18px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+		border: 3px solid white;
+
+
+	}
+	input[type=text] {
+		width: 70%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid #bebebe;
+		font-size: 1.5rem;
+
+	}
+	input[type=email] {
+		width: 70%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid #bebebe;
+		font-size: 1.5rem;
+
+	}
+	#subject{
+		width: 70%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid #bebebe;
+		font-size: 1.5rem;
+		height: 200px;
+
+	}
+	input[type=tel] {
+		width: 70%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid #bebebe;
+		font-size: 1.5rem;
+
+	}
+
+	form {
+		margin-left: 50px;
+	}
+	.clearfloat{
+		display: inline-block;
+		width:  100%;
+	}
+	.contact-desc {
+		float: right;
+		width: 50%
+	}
+
+	.contact-form {
+		float: left;
+		width: 50%;
+	}
+	.contact-desc p {
+		text-align: left;
+		padding-top: 68px;
+		font-size: 22px;
+		padding-right: 33px;
+		color: #888888;
+	}
+	.paragraphe {
+		float: left;
+		width: 60%;
+		margin-top: 70px;
+	}
+	.photo {
+		border-radius: 50%;
+		float: right;
+		width: 40%; 
+	}
+
+
+
